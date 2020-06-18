@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I want a Laptop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="pageline.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<section id="Mpage" data-role="page" data-fullscreen="true" class="page">
+		<div data-role="header" data-position="fixed" id="head" ><h1 id="headH">I Want A Laptop</h1></div>
+		<div data-role="content" id="content">
+			<div id="concept"><p>대학교 신입생 여러분들을 위한 노트북을 추천합니다!!</p>
+			</div>
+			<div class="ui-grid-a">
+			<div class="ui-block-a">
+				<a href="#BasicPage" class="ui-btn ui-shadow ui-btn-inline button" id="b1"><p>초보자 모드</p></a>
+				
+			</div>
+			<div class="ui-block-b">
+				<a href="#ProPage" class="ui-btn ui-shadow ui-btn-inline button" id="b2"><p>고급자 모드</p></a>
+				
+			</div>
+			<div class="ui-block-a" id="Bdesc"><p>초보자 모드는 자신이 컴퓨터 부품에 대해 잘 모를경우 선택하세요!</p></div>
+			<div class="ui-block-b" id="Pdesc"><p>고급자 모드는 세세한 부품을 선택할 수 있습니다.</p></div>
+			</div>
+		</div>
+		<div><img src="Mnote.jpg" width="95%" height="400px"></div>
+		<div data-role="footer" data-position="fixed" id="footer">
+			<p id="foot">김관수 18113570</p>
+		</div>
+		
+	</section>
+
+	<section id="BasicPage" data-role="page" data-fullscreen="true" class="page">
+		<div data-role="header" data-position="fixed" id=head data-add-back-btn="true">
+			<h1 id=headH>초보자 모드</h1>
+		</div>
+		<div id="select" data-role="content">
+			<h1>어떤 용도로 사용할 것입니까?</h1>
+			<ul data-role="listview" >
+				<li><a href="light.html" rel="external" id="lib">가벼운 과제용 노트북</a></li>
+				<li><a href="heavy.html" rel="external" id="lib2">무겁지만 고성능(게이밍) 노트북</a></li>
+			</ul>
+			<div style="margin-top: 50px; " >
+				<a href="tips.html" data-rel="dialog" class="ui-btn ui-icon-carat-r ui-btn-icon-right" rel="external" id="tipB">노트북 선택 팁!</a>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="ProPage" data-role="page"  data-fullscreen="true" class="page">
+
+		
+	</section>
+</body>
+</html>

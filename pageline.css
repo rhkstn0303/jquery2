@@ -1,0 +1,24 @@
+#footer, #head{
+	background-color: #091034;
+	color: #798EF6;
+	text-shadow: none;
+}
+
+#headH{
+	font-size: 20px;
+}
+.page,#subL{
+	background-color: #DDE3FD;
+	color: #090934;
+}
+#select{
+	margin-left:50px;
+	margin-top: 50px;
+	margin-right:50px;
+}
+
+#lib,#lib2{
+	background-color: #2E2FE3;
+	color: #E0E0FB;
+	text-shadow:  2px 2px 5px lightgray;
+}

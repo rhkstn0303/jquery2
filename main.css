@@ -1,0 +1,37 @@
+.button{
+	width: 80%;
+	height: 100%;
+	
+
+}
+#b1,#b2,#tipB{
+	background-color: #8A8AEF;
+	color: #090934;
+	text-shadow: none;
+}
+#tipB{
+	height: : 60px;
+}
+#foot{
+	float:right;
+	font-size: 20px;
+}
+
+#concept{
+	text-shadow: none;
+	/*background-color: #798EF6;*/
+	color: #090934;
+	height: 70px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight:bold;
+}
+img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#Bdesc,#Pdesc{
+	padding: 10px;
+}

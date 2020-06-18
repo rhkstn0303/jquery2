@@ -1,0 +1,21 @@
+#desc{
+	float: left; 
+	margin-right: 20px;
+}
+
+#qes{
+	width: 50px;
+	background-color: #151599;
+	color: #798EF6;
+	text-shadow: none;
+}
+
+#list {
+	margin-top: 50px;
+}
+#from{
+	text-align: right;
+}
+#help{
+	font-size: 30px;
+}
